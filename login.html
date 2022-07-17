@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/02a68c3539.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display: flex;
+
+            justify-content: space-between;
+            font-size: 2em;
+            font-weight: 800;
+        }
+        nav a{
+            text-decoration: none;
+            margin-left: 10px;
+
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+        }
+        .form input{
+            font-size: 1.5em;
+            font-weight: 900;
+            margin: 5px;
+            padding: 7px;
+        }
+        .form input[type='submit']{
+            border-radius: 5px;
+            border: none;
+            color: whitesmoke;
+            background-color: blueviolet;
+        }
+    </style>
+    <title>LogInForm</title>
+</head>
+<body>
+    <nav>
+        <span><a href="">Home</a><a href="">Content</a><a href="">About-us</a><a href="">contact</a></span>
+        <span>
+            <i class="fas fa-user"></i>
+        <i class="fas fa-sign-out-alt"></i>
+        </span>
+    </nav>
+    <section class="form-container">
+        <form class="form"> 
+            <h1>Please fill up the form to log-in</h1>
+        <input type="email" name="" id="" placeholder="Your Email address" required>
+        <input type="password" name="" id="" placeholder="password" required>
+        <input type="submit" value="submit">
+    
+        </form>
+    </section>
+</body>
+</html>
